@@ -49,6 +49,24 @@
     ![nps]
     
 
+## Cheatsheet
+
+| Tipo de pregunta   | Google Analytics   | Heatmaps   | VOC   |
+| ------------------ |:------------------:|:----------:|:-----:|
+| En base a numeros  | x                  |            |       |
+| Historico necesario | x                 |            |       |
+| Evaluar diseño (experimentos) | x  |            |       |
+| Evaluar diseño (en base a juicio de experto) |  | x  |       |
+| Evaluar diseño (en base a opiniones) |  |            | x     |
+| Pregunta abierta   |                    | x          | x     |
+
+
+Ahora tienen una buena idea sobre el tipo de problemas que deben plantear para el uso de herramientas de mapas de calor o [voz del consumidor](https://en.wikipedia.org/wiki/Voice_of_the_customer). 
+
+
+
+
+
 
 
 [scrollmap]: https://zarget.com/assets/images/banners/scrollmaps-hero.png
