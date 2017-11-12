@@ -27,9 +27,13 @@ Objetivo: Medir la percepcion media de los clientes.
 
 Pregunta tipo: ¿Que tan probable es que usted recomiende esta empresa a un amigo?
 
-  ![nps_calc]
+  ![nps_ex]
+
 
 ### *Formula NPS: Promoters - Detractors *
+
+  ![nps_calc]
+
 
 ## Benchmark NPS
 
@@ -46,3 +50,4 @@ Ir a ...
 [tipos_pregunta]: https://static.e-encuesta.com/wp-content/uploads/Esquema-2-Letra-negra-Fondo-Blanco-2.jpg
 [nps_calc]: https://www.reviewtrackers.com/wp-content/uploads/net-promotor-score-in-brand-advocacy.jpg
 [nps_bench]: https://www.netpromoter.com/wp-content/uploads/2016/06/2016-b2c-sps-sector-averages.jpg
+[nps_ex]: https://cdn.smassets.net/wp-content/uploads/2015/assets/nps_template_question.png
