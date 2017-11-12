@@ -10,4 +10,4 @@
 -  [Qualaroo](https://app.qualaroo.com/signup)
 
 ---
-Ir a [Consideraciones](../managementsociety/herramientas/consideraciones.md)
+Ir a [Consideraciones](..managementsociety/herramientas/consideraciones.md)
