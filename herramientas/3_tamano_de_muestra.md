@@ -3,7 +3,7 @@
 # Tamaño de muestra
 
 
-¿Por que es necesario tomar una muestra ahora que todas las herramientas estan en la nube y pueden escalar sin mayor complicacion?
+¿Por que es necesario tomar una muestra ahora que todas las herramientas estan en la nube y pueden escalar sin mayor complicacion? :weary:
 
 Todo se resume a numeros:
 
@@ -26,6 +26,10 @@ Las herramientas pueden escalar :cloud:, pero nuestros presupuestos no lo hacen 
 :warning: Se sugiere [solicitar acceso a la cuenta Demo
 de Analytics](https://support.google.com/analytics/answer/6367342#access) para seguir los siguientes ejemplos.
 		
+Con el acceso a la cuenta DEMO daremos los siguientes pasos:
+
+		Behavior / Site Content / All pages / Content Grouping = Product Categories
+
 
 
 
