@@ -18,9 +18,17 @@ Google Analytics es una herramienta que responde muchas preguntas de negocio per
     - En una landing page especifica: ¿Los beneficios estan ubicados en una zona donde se ve a primera vista?
     ![scrollmap] 
     
+    - ¿Que llama mas la atencion: la grafica o el copy?
+    ![baby_1]
     
+    - ¿Que sucede si el bebe mira el copy?
+    ![baby_2]
+    
+ 
 
 
 
 
 [scrollmap]: https://zarget.com/assets/images/banners/scrollmaps-hero.png
+[baby_1]: https://cdn.thegood.com/wp-content/uploads/heatmaps-scrollmaps-clickmaps-2.png
+[baby_2]: https://cdn.thegood.com/wp-content/uploads/heatmaps-scrollmaps-clickmaps-3.png
