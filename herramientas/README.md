@@ -9,7 +9,15 @@
 
 ## Se recomienda crear cuentas en ambas herramientas:
 -  [Mousestats](https://ssl.mousestats.com/user/register/4)
+
+	![mt]
 -  [Qualaroo](https://app.qualaroo.com/signup)
+
+	![qr]
 
 ---
 Ir a [Consideraciones](https://github.com/acamposc/managementsociety/blob/master/herramientas/consideraciones.md)
+
+[mt]: https://www.mousestats.com/docs/Attachments/Blog/materials/Logo-800x200.png
+[qr]: https://blog.qualaroo.com/wp-content/themes/qualaroo/images/logo.svg
+
