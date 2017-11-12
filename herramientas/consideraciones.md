@@ -1,3 +1,5 @@
+# *Material de la clase: https://goo.gl/baH2Ns*
+
 # Consideraciones
 ---
 - Google Analytics, Adobe Analytics, etc. son herramientas que apuntan a registrar informacion sobre el total de acciones que ocurren en cada pagina.
