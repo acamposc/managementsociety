@@ -8,3 +8,6 @@
 ## Se recomienda crear cuentas en ambas herramientas:
 -  [Mousestats](https://ssl.mousestats.com/user/register/4)
 -  [Qualaroo](https://app.qualaroo.com/signup)
+
+---
+Ir a [Consideraciones](../blob/master/managementsociety/herramientas/consideraciones.md)
