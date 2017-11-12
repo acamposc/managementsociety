@@ -27,10 +27,11 @@ Google Analytics es una herramienta que responde muchas preguntas de negocio per
                
     ![baby_2]
 
+- Para una landing page con mucho contenido, ¿que areas llaman más la atencion? 
 
-
-
+    ![move] 
 
 [scrollmap]: https://zarget.com/assets/images/banners/scrollmaps-hero.png
 [baby_1]: https://cdn.thegood.com/wp-content/uploads/heatmaps-scrollmaps-clickmaps-2.png
 [baby_2]: https://cdn.thegood.com/wp-content/uploads/heatmaps-scrollmaps-clickmaps-3.png
+[move]: https://www.mousestats.com/static/theme/salesv2/serviceScreenshots/move.gif
