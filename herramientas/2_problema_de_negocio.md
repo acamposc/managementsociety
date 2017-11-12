@@ -26,11 +26,26 @@
                
     ![baby_2]
 
-- Para una landing page con mucho contenido, ¿que areas llaman más la atencion? 
+- Para una landing page con mucho contenido, ¿que areas llaman mas la atencion?, ¿existe alguna diferencia para los usuarios que navegan en Safari o para los que llegaron desde el ultimo boletin enviado por mail?
 
     ![move] 
+
+- ¿Se le da clic al carrusel del Home? De hecho, esto se responde bastante bien con Google Analytics.
+
+    ![carrusel]
+    
+    - [Encontre este articulo bastante antiguo](https://searchengineland.com/homepage-sliders-are-bad-for-seo-usability-163496) donde se contaron las veces que se mostraba el carrusel del Home y cuantos clics se le daba para llegar a la conclusion que menos del 1% del trafico realmente daba uso de los carruseles. 
+
+    - [Este otro articulo antiguo](https://erikrunyon.com/2013/01/carousel-stats/) es otro esfuerzo por guiarnos a que evaluemos si vale la pena tener carruseles.
+
+    - En cambio, si la pregunta fuera: **¿el contenido del carrusel llama la atencion?** la respuesta la podemos encontrar en diversas formas como entrevistas a profundidad, focus groups, cuestionarios en la misma pagina levantando una pregunta tan sencilla como "¿El contenido del banner fue de utilidad?" o "Califica del 1 al 7 si consideras que el contenido del banner fue de utilidad." Otra alternativa seria usar mapas de movimiento de mouse.
+    
+    
+
+
 
 [scrollmap]: https://zarget.com/assets/images/banners/scrollmaps-hero.png
 [baby_1]: https://cdn.thegood.com/wp-content/uploads/heatmaps-scrollmaps-clickmaps-2.png
 [baby_2]: https://cdn.thegood.com/wp-content/uploads/heatmaps-scrollmaps-clickmaps-3.png
 [move]: https://www.mousestats.com/static/theme/salesv2/serviceScreenshots/move.gif
+[carrusel]: https://cdn.thegood.com/wp-content/uploads/heatmaps-scrollmaps-clickmaps-8.jpg
