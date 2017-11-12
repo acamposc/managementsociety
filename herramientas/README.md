@@ -1,6 +1,6 @@
 ## managementsociety
 
-# *Material de la clase: https://goo.gl/baH2Ns*
+# *Material de la clase: https://goo.gl/DyioCv*
 
 # Clases de herramientas en Management Society
 	Miercoles 15 de Noviembre 2017
