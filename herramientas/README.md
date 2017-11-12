@@ -10,4 +10,4 @@
 -  [Qualaroo](https://app.qualaroo.com/signup)
 
 ---
-Ir a [Consideraciones](/consideraciones.md)
+Ir a [Consideraciones](https://github.com/acamposc/managementsociety/blob/master/herramientas/consideraciones.md)
