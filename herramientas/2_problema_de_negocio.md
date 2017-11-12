@@ -40,6 +40,13 @@
 
     - En cambio, si la pregunta fuera: **¿el contenido del carrusel llama la atencion?** la respuesta la podemos encontrar en diversas formas como entrevistas a profundidad, focus groups, cuestionarios en la misma pagina levantando una pregunta tan sencilla como "¿El contenido del banner fue de utilidad?" o "Califica del 1 al 7 si consideras que el contenido del banner fue de utilidad." Otra alternativa seria usar mapas de movimiento de mouse.
     
+- ¿El contenido satsiface lo que busca la gente? ¿El contenido es suficiente o se puede abarcar otros temas?   
+    
+    ![qualaroo]
+
+- ¿Cual es la opinion de la gente sobre el contenido?
+
+    ![nps]
     
 
 
@@ -49,3 +56,5 @@
 [baby_2]: https://cdn.thegood.com/wp-content/uploads/heatmaps-scrollmaps-clickmaps-3.png
 [move]: https://www.mousestats.com/static/theme/salesv2/serviceScreenshots/move.gif
 [carrusel]: https://cdn.thegood.com/wp-content/uploads/heatmaps-scrollmaps-clickmaps-8.jpg
+[qualaroo]: https://blog.qualaroo.com/wp-content/uploads/2016/11/qualaroo-example.png
+[nps]: https://blog.kissmetrics.com/wp-content/uploads/2011/08/net-promoter-score-survey.png
