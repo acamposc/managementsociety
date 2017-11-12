@@ -12,8 +12,7 @@
     - ¿En que canal debo invertir mas en el proximo Cyber Monday?
 
 ### Se contestan usando herramientas como Google Analytics. 
-    
-Google Analytics es una herramienta que responde muchas preguntas de negocio pero no esta hecha para responder preguntas de caracter cualitativo como:
+### Google Analytics es una herramienta que responde muchas preguntas de negocio pero no esta hecha para responder preguntas de caracter cualitativo como:
 
 - En una landing page especifica: ¿Los beneficios / las ofertas / los descuentos estan ubicados en una zona donde se ve a primera vista?
                
