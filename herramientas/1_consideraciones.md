@@ -15,3 +15,6 @@
 - El contenido de la clase siempre se encontrara en este repositorio, sin embargo al crearse una cuenta aparece la opcion para descargar los archivos en caso alguno de ustedes desee tenerlo en sus computadoras.
 
 - Se sugiere guardar el enlace de esta clase para poder acceder al contenido cuando sea necesario. 
+
+---
+Ir a [Definir el problema de negocio](https://github.com/acamposc/managementsociety/blob/master/herramientas/2_problema_de_negocio.md)
