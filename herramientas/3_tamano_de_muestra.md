@@ -22,6 +22,7 @@ Todo se resume a numeros:
 		cualitativos en base a un indicador numerico.
 
 
+## Actividad: Conseguiremos data para hallar la poblacion
 
 :warning: Se sugiere [solicitar acceso a la cuenta Demo
 de Analytics](https://support.google.com/analytics/answer/6367342#access) para seguir los siguientes ejemplos.
@@ -38,9 +39,14 @@ Con el acceso a la cuenta DEMO daremos los siguientes pasos:
 
 Con esto hemos hallado el tamaño de la poblacion, para las páginas con pocas sesiones se sugiere primero encontrar el tamaño de la muestra y luego implementarla al 100% de sesiones. Para las páginas con gran cantidad de sesiones, se sugiere solo aplicar los heatmaps o cuestionarios hasta donde la formula indique.
    
+   
+## Calculando el tamaño de la muestra
+
    ![sample]
 
-Para calcular la muestra en base a los grupos de paginas usaremos [calculadoras online](http://www.calculator.net/sample-size-calculator.html?type=1&cl=95&ci=1&pp=50&ps=18797&x=66&y=20).
+
+[Para calcular la muestra en base a los grupos de paginas usaremos calculadoras online](http://www.calculator.net/sample-size-calculator.html?type=1&cl=95&ci=1&pp=50&ps=18797&x=66&y=20).
+
 Siguiendo el ejemplo:
 
 | Indicador | Valor |
@@ -50,8 +56,10 @@ Siguiendo el ejemplo:
 | Proporcion | 50%  |
 | Nivel Conf | 99%  |
 
+
 **El resultado da una muestra de 8,827 resultados** para los mapas o cuestionarios en la pagina 	
 /google+redesign/shop+by+brand/youtube
+
 
 
 | Supuesto | Respuesta |
@@ -60,7 +68,7 @@ Siguiendo el ejemplo:
 | Con data de 8,827 personas el Heatmap es estadisticamente significativo | Si |
 | Esto solo aplica a Heatmaps | No |
 | Esto aplica a cuestinonarios tambien | Si |
-| ESto aplica para analizar data de reportes de GA | Depende |
+| Esto aplica para analizar data de reportes de GA | Depende |
 
 
 
