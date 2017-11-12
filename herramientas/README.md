@@ -16,7 +16,7 @@
 	![qr]
 
 ---
-Ir a [Consideraciones](https://github.com/acamposc/managementsociety/blob/master/herramientas/consideraciones.md)
+Ir a [Consideraciones](https://github.com/acamposc/managementsociety/blob/master/herramientas/1_consideraciones.md)
 
 [mt]: https://www.mousestats.com/docs/Attachments/Blog/materials/Logo-800x200.png
 [qr]: https://blog.qualaroo.com/wp-content/themes/qualaroo/images/logo.svg
