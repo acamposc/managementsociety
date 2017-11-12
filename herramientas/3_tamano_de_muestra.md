@@ -58,8 +58,11 @@ Siguiendo el ejemplo:
 
 
 **El resultado da una muestra de 8,827 resultados** para los mapas o cuestionarios en la pagina 	
-/google+redesign/shop+by+brand/youtube
 
+**/google+redesign/shop+by+brand/youtube**
+
+https://shop.googlemerchandisestore.com/Google+Redesign/Shop+by+Brand/YouTube
+![sample_yt]
 
 
 | Supuesto | Respuesta |
@@ -82,3 +85,4 @@ Ir a ...
 [ga_prod_cat]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/3_product_category.png
 [ga_brand_yt]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/3_brand.png
 [sample]: https://faculty.elgin.edu/dkernler/statistics/ch01/images/strata-sample.gif
+[sample_yt]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/3_sample_yt.png
