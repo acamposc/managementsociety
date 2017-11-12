@@ -36,6 +36,34 @@ Con el acceso a la cuenta DEMO daremos los siguientes pasos:
 
    ![ga_brand_yt]
 
+Con esto hemos hallado el tamaño de la poblacion, para las páginas con pocas sesiones se sugiere primero encontrar el tamaño de la muestra y luego implementarla al 100% de sesiones. Para las páginas con gran cantidad de sesiones, se sugiere solo aplicar los heatmaps o cuestionarios hasta donde la formula indique.
+   
+   ![sample]
+
+Para calcular la muestra en base a los grupos de paginas usaremos [calculadoras online](http://www.calculator.net/sample-size-calculator.html?type=1&cl=95&ci=1&pp=50&ps=18797&x=66&y=20).
+Siguiendo el ejemplo:
+
+| Indicador | Valor |
+| --------- |:-----:|
+| Poblacion | 18,797 |
+| Error     | 1     |
+| Proporcion | 50%  |
+| Nivel Conf | 99%  |
+
+**El resultado da una muestra de 8,827 resultados** para los mapas o cuestionarios en la pagina 	
+/google+redesign/shop+by+brand/youtube
+
+
+| Supuesto | Respuesta |
+| -------- |:---------:|
+| Con 8,827 clics el Heatmap es estadisticamente significativo | No |
+| Con data de 8,827 personas el Heatmap es estadisticamente significativo | Si |
+| Esto solo aplica a Heatmaps | No |
+| Esto aplica a cuestinonarios tambien | Si |
+| ESto aplica para analizar data de reportes de GA | Depende |
+
+
+
 
 ---
 
@@ -45,3 +73,4 @@ Ir a ...
 [qr_price]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/3_qualaroo_pricing.png
 [ga_prod_cat]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/3_product_category.png
 [ga_brand_yt]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/3_brand.png
+[sample]: https://faculty.elgin.edu/dkernler/statistics/ch01/images/strata-sample.gif
