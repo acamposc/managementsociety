@@ -15,7 +15,7 @@
     
 Google Analytics es una herramienta que responde muchas preguntas de negocio pero no esta hecha para responder preguntas de caracter cualitativo como:
 
-- En una landing page especifica: ¿Los beneficios estan ubicados en una zona donde se ve a primera vista?
+- En una landing page especifica: ¿Los beneficios / las ofertas / los descuentos estan ubicados en una zona donde se ve a primera vista?
                
     ![scrollmap]
         
@@ -26,6 +26,10 @@ Google Analytics es una herramienta que responde muchas preguntas de negocio per
 - ¿Que sucede si el bebe mira el copy?
                
     ![baby_2]
+
+
+
+
 
 [scrollmap]: https://zarget.com/assets/images/banners/scrollmaps-hero.png
 [baby_1]: https://cdn.thegood.com/wp-content/uploads/heatmaps-scrollmaps-clickmaps-2.png
