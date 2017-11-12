@@ -65,7 +65,7 @@ Ahora tienen una buena idea sobre el tipo de problemas que deben plantear para e
 
 ---
  
-Ir a [Tamaño de muestra](https://github.com/acamposc/managementsociety/edit/master/herramientas/3_tamano_de_muestra.md)
+Ir a [Tamaño de muestra](https://github.com/acamposc/managementsociety/blob/master/herramientas/3_tamano_de_muestra.md)
 
 
 
