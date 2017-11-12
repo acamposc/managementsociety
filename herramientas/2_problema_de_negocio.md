@@ -63,7 +63,9 @@
 
 Ahora tienen una buena idea sobre el tipo de problemas que deben plantear para el uso de herramientas de mapas de calor o [voz del consumidor](https://en.wikipedia.org/wiki/Voice_of_the_customer). 
 
-
+---
+ 
+Ir a [Tamaño de muestra](https://github.com/acamposc/managementsociety/edit/master/herramientas/3_tamano_de_muestra.md)
 
 
 
