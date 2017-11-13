@@ -17,9 +17,12 @@
   1. **Preguntas de segmentacion:** Se pregunta a las personas como parte de que segmento se identifican.
   2. **Preguntas de pertenencia:** Se pregunta si tienen productos, cuantos y cuales si aplica.
   3. **Preguntas orientadas a comportamiento:** Como compran y que cual es la frecuencia.
-  4. **Pregunta orientada a contenido:** Que contenido fue mas util para apoyar a tomar la decision de compra.
-  5. **Pregunta de factores en la toma de decisiones:** Que atributo fue el que importo mas al momento de comprar.
-  6. **:**
+  4. **Preguntas orientada a contenido:** Que contenido fue mas util para apoyar a tomar la decision de compra.
+  5. **Preguntas de factores en la toma de decisiones:** Que atributo fue el que importo mas al momento de comprar.
+  6. **Preguntas de descubrimiento:** Se pregunta que se quiere lograr visitando el sitio. Mas conocidas como Proposito primario. Usualmente estas vienen seguidas por otras para **determinar que tan importante es ese objetivo en comparacion a otros, cual es el uso que le da al producto adquirido o que tan frecuente retorna al sitio para lograrlo.**
+  7. **Atributos de marca:** Por ejemplo reputacion, funcionalidad, recomendacion, precio, calidad.
+  
+  :man_with_turban: A estas se le puede invitar a participar en una entrevista a profundidad por telefono, solicitando el numero y su disponibilidad.
 
 # Tipos de pregunta a realizar en los cuestionarios
 
