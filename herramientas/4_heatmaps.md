@@ -14,7 +14,7 @@
 
 ---
 
-Ir a ..
+Ir a [Cuestionarios](https://github.com/acamposc/managementsociety/blob/master/herramientas/5_cuestionarios.md)
 
 []:
 []: 
