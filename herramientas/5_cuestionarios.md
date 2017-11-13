@@ -1,6 +1,26 @@
 # *Material de la clase: https://goo.gl/DyioCv*
 
 
+# Cuestionarios
+
+## Objetivo:
+   Entender mejor al publico objetivo.
+
+## Usos:
+  - Validar hipotesis de negocio.
+  - Redefinir procesos, flujos, orden de elementos en formularios.
+  - Mejorar productos, paginas, o secciones especificas de una pagina.
+  - Afinar el mensaje que se transmite en la publicidad.
+
+
+## Preguntas de negocio que se pueden responder con cuestionarios
+  1. **Preguntas de segmentacion:** Se pregunta a las personas como parte de que segmento se identifican.
+  2. **Preguntas de pertenencia:** Se pregunta si tienen productos, cuantos y cuales si aplica.
+  3. **Preguntas orientadas a comportamiento:** Como compran y que cual es la frecuencia.
+  4. **Pregunta orientada a contenido:** Que contenido fue mas util para apoyar a tomar la decision de compra.
+  5. **Pregunta de factores en la toma de decisiones:** Que atributo fue el que importo mas al momento de comprar.
+  6. **:**
+
 # Tipos de pregunta a realizar en los cuestionarios
 
   ![tipos_pregunta]
