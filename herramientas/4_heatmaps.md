@@ -1,0 +1,16 @@
+# *Material de la clase: https://goo.gl/DyioCv*
+
+
+# Mapas de calor
+
+
+
+
+
+---
+
+Ir a ..
+
+[]:
+[]: 
+[]: 
