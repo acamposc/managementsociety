@@ -22,6 +22,6 @@ Para empezar: [Iniciar sesion en mousestats.com](https://ssl.mousestats.com/user
 
 Ir a [Cuestionarios](https://github.com/acamposc/managementsociety/blob/master/herramientas/5_cuestionarios.md)
 
-[]:
+[]: 
 []: 
 []: 
