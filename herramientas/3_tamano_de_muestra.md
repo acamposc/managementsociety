@@ -78,7 +78,7 @@ https://shop.googlemerchandisestore.com/Google+Redesign/Shop+by+Brand/YouTube
 
 ---
 
-Ir a ...
+Ir a [Mapas de calor](https://github.com/acamposc/managementsociety/blob/master/herramientas/4_heatmaps.md)
 
 [mt_price]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/3_mousestats_pricing.png 
 [qr_price]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/3_qualaroo_pricing.png
