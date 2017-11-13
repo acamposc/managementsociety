@@ -45,14 +45,14 @@ Con esto hemos hallado el tamaño de la poblacion, para las páginas con pocas s
    ![sample]
 
 
-[Para calcular la muestra en base a los grupos de paginas usaremos calculadoras online](http://www.calculator.net/sample-size-calculator.html?type=1&cl=95&ci=1&pp=50&ps=18797&x=66&y=20).
+[Para calcular la muestra en base a los grupos de paginas usaremos calculadoras online](https://www.surveymonkey.com/mp/sample-size-calculator/).
 
 Siguiendo el ejemplo:
 
 | Indicador | Valor |
 | --------- |:-----:|
 | Poblacion | 18,797 |
-| Error     | 1     |
+| Error     | 1% |
 | Proporcion | 50%  |
 | Nivel Conf | 99%  |
 
