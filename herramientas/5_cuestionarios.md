@@ -39,7 +39,7 @@ Pregunta tipo: ¿Que tan probable es que usted recomiende esta empresa a un amig
 
   ![nps_bench]
 
-El cuadro lo pueden encontrar en https://www.netpromoter.com/compare/
+El cuadro lo pueden encontrar en https://www.netpromoter.com/compare/. Datos a Nov-17.
 
 
 
