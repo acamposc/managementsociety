@@ -28,6 +28,9 @@ En caso se vaya a usar el codigo a continuacion, cambiar el **id de usuario** ca
 [Luego se puede proceder a instalar usando Google Tag Manager.](http://www.mousestats.com/docs/wiki/31/google-tag-manager-gtm-integration) 
 La regla a usar en GTM depende de donde se quiera capturar data, tambien se puede usar "All pages".
 
+### [Instalar Mousestats en un sitio web que use Wordpress](http://www.mousestats.com/docs/wiki/9/mousestats-wordpress-integration)
+Existe un plugin oficial de Mousestats para Wordpress, es una alternativa a implementarlo por GTM.
+
 ### Integracion avanzada con Google Analytics
 #### Objetivo:
     1. Encontrar usuarios con un comportamiento interesante en GA.
@@ -37,8 +40,43 @@ La regla a usar en GTM depende de donde se quiera capturar data, tambien se pued
 #### ¿Como se logra esto?
     El ID de usuario de Mousestats se pinta en una Dimension Personalizada de Google Analytics.
     
-[Pasos para integrar Mousestats con GA usando GTM.](http://www.mousestats.com/docs/wiki/32/google-analytics-integration-using-gtm)
+   ![mt_ga_custom_dimension] 
+    
+#### [Pasos para integrar Mousestats con GA usando GTM.](http://www.mousestats.com/docs/wiki/32/google-analytics-integration-using-gtm)
 
+### Identificar a un usuario en Mousestats
+:warning:Para habilitar esta caracteristica **se debe tener un identificador del usuario** como correo electronico o un id de base de datos disponible cuando navega la web.
+
+[Instruccion: colocar la siguiente linea de codigo luego de haber colocado la etiqueta de Mousestats](http://www.mousestats.com/docs/wiki/27/identify-a-user)
+```javascript
+MouseStats_Commands.push(["identify", "john.doe@example.com"]);
+```
+Esta data se puede encontrar en la seccion TAGs (dentro de Mousestats).
+
+#### Tambien se puede incluir mayor cantidad de informacion de los usuarios en la seccion TAGs.
+![mt_tags]
+
+¿En que ocasiones deberia extender la implementacion a este punto?
+
+Cuando se desea:
+
+- :watermelon:Analizar el comportamiento de los usuarios diferenciandolos en base a definiciones de negocio.
+	
+	* Ejemplo 1: ¿En un ecommerce el comportamiento en el checkout sera igual para el que no esta registrado y compra sin registrarse?
+	![macys_checkout]
+	
+	* Ejemplo 2: ¿La navegacion de un usuario de Netflix sera igual en su periodo de 30 dias gratis vs el de un usuario con plan Premium? [Referencia sobre los planes de Netflix.](https://help.netflix.com/en/node/24926)
+	![netflix_plans]
+	
+	* Ejemplo 3: ¿Sera similar la navegacion entre distintos usuarios de una misma cuenta de Netlfix?
+	![netflix_users]
+
+- :banana:Segmentando los reportes de Mousestats en base a intencionalidad.
+	Esto aplica tanto para los negocios que pueden identificar a sus usuarios por correo o id como para los que no pueden.
+	*Para ahondar en esto se sugiere tener en mente el flujo deseado de navegacion en la Web o APP.*
+	
+	
+	![see_think_do]
 
 
 ---
@@ -46,5 +84,12 @@ La regla a usar en GTM depende de donde se quiera capturar data, tambien se pued
 Ir a [Cuestionarios](https://github.com/acamposc/managementsociety/blob/master/herramientas/5_cuestionarios.md)
 
 [mt_over]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_mousestats_overview.png
-[]: 
-[]: 
+[mt_ga_custom_dimension]: https://www.mousestats.com/docs/Attachments/DocumentResources/GADimensions.png
+[mt_tags]: http://www.mousestats.com/docs/wiki/20/tag-data-playback-heatmaps-form-analytics
+[macys_checkout]: https://assets.econsultancy.com/public/imgur/swS6IYs.png
+[netflix_plans]: https://www.cutcabletoday.com/wp-content/uploads/2016/05/Netflix-plans-1024x600.jpg
+[netflix_users]: https://iwsmt-content-ok2nbdvvyp8jbrhdp.stackpathdns.com/942015193464.jpg
+[see_think_do]: https://www.kaushik.net/avinash/wp-content/uploads/2013/07/see_think_do_optimal_digital_marketing_strategy-2.png
+
+
+
