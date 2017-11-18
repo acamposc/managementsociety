@@ -45,7 +45,7 @@ Con esto hemos hallado el tamaño de la poblacion, para las páginas con pocas s
    ![sample]
 
 
-[Para calcular la muestra en base a los grupos de paginas usaremos calculadoras online](https://www.surveymonkey.com/mp/sample-size-calculator/).
+## [Para calcular la muestra en base a los grupos de paginas usaremos calculadoras online](https://www.surveymonkey.com/mp/sample-size-calculator/).
 
 Siguiendo el ejemplo:
 
