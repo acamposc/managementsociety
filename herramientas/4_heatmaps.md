@@ -134,7 +134,7 @@ MouseStats_Commands.push(["tag", "carrera", "marketing"]);
 
 ### Tipos de mapas de calor
 
-1. Element analysis
+1. Area stats
  ![mt_element_analysis]
  
  La idea es simple, solo basta con seleccionar las zonas que se desea comparar dentro de un mismo diseño.
