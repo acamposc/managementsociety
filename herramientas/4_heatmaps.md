@@ -71,12 +71,30 @@ Cuando se desea:
 	* Ejemplo 3: ¿Sera similar la navegacion entre distintos usuarios de una misma cuenta de Netlfix?
 	![netflix_users]
 
-- :banana:Segmentando los reportes de Mousestats en base a intencionalidad.
+- :banana:Segmentando los reportes de Mousestats en base a intencionalidad:
+
 	Esto aplica tanto para los negocios que pueden identificar a sus usuarios por correo o id como para los que no pueden.
-	*Para ahondar en esto se sugiere tener en mente el flujo deseado de navegacion en la Web o APP.*
+	*Para ahondar en esto se sugiere tener en mente el flujo deseado de navegacion en la Web o APP y la intencionalidad en la que se encuentra el publico que deseo analizar.*
 	
+	#### Online Customer Journey 
+	![goal_flow]
+	Para llegar al grafico mostrado con las etapas de interes en el flujo de la navegacion se puede seguir la siguiente ruta en Analytics: **Conversions / Goals / Goal Flow**
 	
+	Tambien es necesario considerar que para tener data en esta seccion se debe configurar el embudo de conversiones en la cuenta de Analytics del negocio. [Referencia para configurar objetivos en Google Analytics de manera eficiente.](http://attachmedia.com/blog/como-definir-y-medir-objetivos-para-sitios-web-en-google-analytics/?utm_source?=github&utm_medium=clase_arturo&utm_campaing=managementsociety)
+	
+	#### Intencionalidad
 	![see_think_do]
+	
+	En caso no las tengamos definidas podemos usar de referencia el [Framework See Think Do Care](https://www.thinkwithgoogle.com/intl/en-145/perspectives/global-articles/kpis-essential-framework/) para definir no solo los KPIs importantes a seguir sino en que pasos del Customer Journey se encuentran las primeras tres etapas: 
+	
+	* See: Podemos analizar el comportamiento de los usuarios cuando las paginas de destino son de campañas de Display orientadas a generar Awareness. 
+	* Think: Podemos analizar el comportamiento cuando: se navega entre paginas de detalle de producto o se tienen formularios para conseguir leads.
+	* Do: La idea es analizar el proceso de checkout y la compra. 
+	
+	Este Framework usualmente se usa para definir la estrategia de publicidad pero en este caso lo usamos para decidir que 
+
+
+
 
 
 ---
@@ -85,11 +103,12 @@ Ir a [Cuestionarios](https://github.com/acamposc/managementsociety/blob/master/h
 
 [mt_over]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_mousestats_overview.png
 [mt_ga_custom_dimension]: https://www.mousestats.com/docs/Attachments/DocumentResources/GADimensions.png
-[mt_tags]: http://www.mousestats.com/docs/wiki/20/tag-data-playback-heatmaps-form-analytics
+[mt_tags]: http://www.mousestats.com/docs/Attachments/Images/TagData.png
 [macys_checkout]: https://assets.econsultancy.com/public/imgur/swS6IYs.png
 [netflix_plans]: https://www.cutcabletoday.com/wp-content/uploads/2016/05/Netflix-plans-1024x600.jpg
 [netflix_users]: https://iwsmt-content-ok2nbdvvyp8jbrhdp.stackpathdns.com/942015193464.jpg
 [see_think_do]: https://www.kaushik.net/avinash/wp-content/uploads/2013/07/see_think_do_optimal_digital_marketing_strategy-2.png
+[goal_flow]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_mousestats_goal_flow_analytics.png
 
 
 
