@@ -183,6 +183,7 @@ MouseStats_Commands.push(["tag", "carrera", "marketing"]);
 	 - ¿Que elemento llama mas la atencion?
 	 
 6. Viewport Overlap
+
  ![mt_viewport]
 
 	 Preguntas de negocio a contestar:
