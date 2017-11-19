@@ -182,9 +182,11 @@ MouseStats_Commands.push(["tag", "carrera", "marketing"]);
 	 - ¿Que secciones no se leen?
 	 - ¿Que elemento llama mas la atencion?
 	 
- 
+6. Viewport Overlap
+ ![mt_viewport]
 
-
+	 Preguntas de negocio a contestar:
+	 - ¿Que contenido ven todos los usuarios en general?	
 
 
 ---
@@ -204,5 +206,6 @@ Ir a [Cuestionarios](https://github.com/acamposc/managementsociety/blob/master/h
 [mt_scroll_heatmaps]: https://www.mousestats.com/static/theme/salesv2/serviceScreenshots/scroll.gif
 [mt_click_heatmaps]: https://www.mousestats.com/static/theme/salesv2/serviceScreenshots/clicks.gif
 [mt_move_heatmaps]: https://www.mousestats.com/static/theme/salesv2/serviceScreenshots/move.gif
+[mt_viewport]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_mousestats_viewport.png
 
  
