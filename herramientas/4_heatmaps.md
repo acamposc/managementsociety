@@ -58,7 +58,8 @@ MouseStats_Commands.push(["identify", "john.doe@example.com"]);
 ```
 Esta data se puede encontrar en la seccion TAGs (dentro de Mousestats).
 
-#### Tambien se puede incluir mayor cantidad de informacion de los usuarios en la seccion TAGs.
+### Agregar otra informacion de usuario
+Tambien se puede incluir mayor cantidad de informacion de los usuarios en la seccion TAGs.
 ![mt_tags]
 
 Ejemplos de tags a usar:
@@ -72,8 +73,9 @@ Para tener la informacion organizada se sugiere usar la siguiente forma:
 ```javascript
 MouseStats_Commands.push(["tag", "email", "user@mysite.com"]);
 ```
+En estos casos la consulta se debe realizar de la siguiente manera `"email:user@mysite.com"`; es decir, `key:value`.
 
-¿En que ocasiones deberia extender la implementacion a este punto?
+#### ¿En que ocasiones deberia extender la implementacion a este punto?
 
 Cuando se desea:
 
@@ -121,10 +123,48 @@ Ejemplo para seguros:
 ```javascript
 MouseStats_Commands.push(["tag", "categoria", "ida y vuelta"]);
 ```
-Ejemplo para diarios:
+Ejemplo para sitios de contenido:
 ```javascript
 MouseStats_Commands.push(["tag", "seccion", "deportes"]);
 ```
+Ejemplo para educacion:
+```javascript
+MouseStats_Commands.push(["tag", "carrera", "marketing"]);
+```
+
+### Tipos de mapas de calor
+
+1. Element analysis
+ ![mt_element_analysis]
+ 
+ La idea es simple, solo basta con seleccionar las zonas que se desea comparar dentro de un mismo diseño.
+ 
+	 Preguntas de negocio a contestar con este tipo de analisis:
+	 - ¿Donde da clic la gente? ¿Que call to action dentro del mismo landing page funciona mejor?
+	 - ¿Que imagen capta mas atencion dentro de la misma pagina?
+	 - ¿Que frase capta mas atencion?
+	 - ¿Que color/tamaño/fuente del copy consigue mas atencion?
+ 
+ 
+2. Attention heatmaps
+ ![mt_attention_heatmaps]
+ 
+  El algoritmo de Mousestats define las areas importantes en base a donde se logra mayor atencion en la vista de una pagina.
+ 
+	 Preguntas de negocio a contestar con este tipo de analisis:
+	 - ¿Donde me conviene colocar el llamado a la accion?
+	 - ¿Que tanto me conviene tener un banner en la parte superior de la pagina?
+	 - ¿La gente mira el carruesel de imagenes? ¿le dan clic si quiera?
+	 - ¿Hay contenido que merece ser eliminado?
+
+3. Scroll heatmaps
+ ![mt_scroll_heatmaps]
+ 
+ 
+
+4. Click heatmaps
+
+5. Move heatmaps
 
 
 
@@ -141,6 +181,7 @@ Ir a [Cuestionarios](https://github.com/acamposc/managementsociety/blob/master/h
 [netflix_users]: https://iwsmt-content-ok2nbdvvyp8jbrhdp.stackpathdns.com/942015193464.jpg
 [see_think_do]: https://www.kaushik.net/avinash/wp-content/uploads/2013/07/see_think_do_optimal_digital_marketing_strategy-2.png
 [goal_flow]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_mousestats_goal_flow_analytics.png
-
-
+[mt_element_analysis]: https://www.mousestats.com/static/theme/salesv2/serviceScreenshots/areastats.gif
+[mt_attention_heatmaps]: https://www.mousestats.com/static/theme/salesv2/serviceScreenshots/attention.gif
+[mt_scroll_heatmaps]: https://www.mousestats.com/static/theme/salesv2/serviceScreenshots/scroll.gif
 
