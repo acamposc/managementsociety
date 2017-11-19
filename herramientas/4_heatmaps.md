@@ -160,11 +160,29 @@ MouseStats_Commands.push(["tag", "carrera", "marketing"]);
 3. Scroll heatmaps
  ![mt_scroll_heatmaps]
  
- 
+	 Preguntas de negocio a contestar con este tipo de analisis:
+	 - ¿Que tan abajo de la pagina me conviene poner un anuncio publicitario?
+	 - ¿Hay demasiado contenido en la pagina o conviene colocar mas?
+	 - ¿Que tan esencial es poner la informacion mas importante above the fold?
+
 
 4. Click heatmaps
-
+ ![mt_click_heatmaps]
+ 
+	 Preguntas de negocio a contestar con este tipo de analisis:
+	 - ¿Como simplificar la interfaz sin arruinar la experiencia del usuario?
+	 - ¿Que elementos son inutiles en el diseño?
+	 - ¿Que colores / imagenes / botones confunden?
+	 - ¿Deberia volver este elemento un enlace?
+ 
 5. Move heatmaps
+ ![mt_move_heatmaps]
+
+	 Preguntas de negocio a contestar con este tipo de analisis:
+	 - ¿Que secciones no se leen?
+	 - ¿Que elemento llama mas la atencion?
+	 
+ 
 
 
 
@@ -184,4 +202,7 @@ Ir a [Cuestionarios](https://github.com/acamposc/managementsociety/blob/master/h
 [mt_element_analysis]: https://www.mousestats.com/static/theme/salesv2/serviceScreenshots/areastats.gif
 [mt_attention_heatmaps]: https://www.mousestats.com/static/theme/salesv2/serviceScreenshots/attention.gif
 [mt_scroll_heatmaps]: https://www.mousestats.com/static/theme/salesv2/serviceScreenshots/scroll.gif
+[mt_click_heatmaps]: https://www.mousestats.com/static/theme/salesv2/serviceScreenshots/clicks.gif
+[mt_move_heatmaps]: https://www.mousestats.com/static/theme/salesv2/serviceScreenshots/move.gif
 
+ 
