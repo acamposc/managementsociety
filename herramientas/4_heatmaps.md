@@ -182,12 +182,62 @@ MouseStats_Commands.push(["tag", "carrera", "marketing"]);
 	 - ¿Que secciones no se leen?
 	 - ¿Que elemento llama mas la atencion?
 	 
-6. Viewport Overlap
 
+6. Viewport Overlap
  ![mt_viewport]
 
-	 Preguntas de negocio a contestar:
-	 - ¿Que contenido ven todos los usuarios en general?	
+	 Preguntas de negocio a contestar con este tipo de analisis:
+	 - ¿Que contenido ven todos los usuarios en general?
+
+
+### Hora de crear un Heatmap
+
+1. Elegir una pagina.
+
+ ![atm_analytics_pages]
+
+  Reportes de Google Analytics a revisar:
+
+  a. Behavior / Site Content / `All pages` 
+
+  b. Behavior / Site Content / `Landing pages`
+
+2. Revisar el tipo de dispositivo.
+
+ ![atm_analytics_devices]
+
+  Reportes de Google Analytics a revisar:
+
+  a. Behavior / Site Content / All pages / `Dimension secundaria: Device Category`
+ 
+  b. Behavior / Site Content / Landing pages / `Dimension secundaria: Device Category`
+
+3. Revisar la pagina.
+
+ ![atm_guia_ux]
+
+  http://attachmedia.com/guia-ux/
+
+4. Revisar que la etiqueta de Mousestats este implementada.
+
+ ![atm_gtm_preview]
+
+5. En `Mousestats / Heatmaps / Create new project`
+
+	5.1 **Page URL**: Colocar la URL completa de la pagina a analizar (incluyendo el encabezado http / https
+	5.2 **Limit**: Modificar el limite de vistas a usarse para este reporte.
+	5.3 **Screen Width Range**: Modificar el tamaño de pantalla para diferenciar dispositivos. 
+	Se recomienda configurar un mapa por tipo de dispositivo.
+
+
+ ![mt_hm_step1]
+ ![mt_hm_step2]
+
+https://ssl.mousestats.com/project/clicks/5648789896264721916/?accessKey=cb7747b235719a63f59f1e0bef2dc152
+
+
+
+
 
 
 ---
@@ -208,5 +258,11 @@ Ir a [Cuestionarios](https://github.com/acamposc/managementsociety/blob/master/h
 [mt_click_heatmaps]: https://www.mousestats.com/static/theme/salesv2/serviceScreenshots/clicks.gif
 [mt_move_heatmaps]: https://www.mousestats.com/static/theme/salesv2/serviceScreenshots/move.gif
 [mt_viewport]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_mousestats_viewport.png
+[meme_esperar]: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH8cRv_Re4oo-DOVAm80K-EBeM36AulnLBrTyjpMNwU0hUrmlOZw
+[atm_analytics_pages]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_analytics_attachmedia.png
+[atm_analytics_devices]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_attachmedia_guia_ux_devices.png
+[atm_guia_ux]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_attachmedia_guiaux.png
+[atm_gtm_preview]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_attachmedia_gtm_preview.png
+[mt_hm_step1]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_mousestats_heatmaps_atm_guia_ux.png
+[mt_hm_step2]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_mousestats_heatmaps_atm_guia_ux_2.png
 
- 
