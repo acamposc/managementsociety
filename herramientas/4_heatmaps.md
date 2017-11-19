@@ -184,7 +184,8 @@ MouseStats_Commands.push(["tag", "carrera", "marketing"]);
 	 
 
 6. Viewport Overlap
- ![mt_viewport]
+
+	 ![mt_viewport]
 
 	 Preguntas de negocio a contestar con este tipo de analisis:
 	 - ¿Que contenido ven todos los usuarios en general?
@@ -196,27 +197,27 @@ MouseStats_Commands.push(["tag", "carrera", "marketing"]);
 
  ![atm_analytics_pages]
 
-  Reportes de Google Analytics a revisar:
+	Reportes de Google Analytics a revisar:
 
-  a. Behavior / Site Content / `All pages` 
+	a. Behavior / Site Content / `All pages` 
 
-  b. Behavior / Site Content / `Landing pages`
+	b. Behavior / Site Content / `Landing pages`
 
 2. Revisar el tipo de dispositivo.
 
  ![atm_analytics_devices]
 
-  Reportes de Google Analytics a revisar:
+	Reportes de Google Analytics a revisar:
 
-  a. Behavior / Site Content / All pages / `Dimension secundaria: Device Category`
+	a. Behavior / Site Content / All pages / `Dimension secundaria: Device Category`
  
-  b. Behavior / Site Content / Landing pages / `Dimension secundaria: Device Category`
+	b. Behavior / Site Content / Landing pages / `Dimension secundaria: Device Category`
 
 3. Revisar la pagina.
 
  ![atm_guia_ux]
 
-  http://attachmedia.com/guia-ux/
+  #### http://attachmedia.com/guia-ux/
 
 4. Revisar que la etiqueta de Mousestats este implementada.
 
@@ -225,15 +226,50 @@ MouseStats_Commands.push(["tag", "carrera", "marketing"]);
 5. En `Mousestats / Heatmaps / Create new project`
 
 	5.1 **Page URL**: Colocar la URL completa de la pagina a analizar (incluyendo el encabezado http / https
+	
 	5.2 **Limit**: Modificar el limite de vistas a usarse para este reporte.
+	
 	5.3 **Screen Width Range**: Modificar el tamaño de pantalla para diferenciar dispositivos. 
 	Se recomienda configurar un mapa por tipo de dispositivo.
+	
+	5.4 Crear el mapa.
 
 
  ![mt_hm_step1]
+ 
  ![mt_hm_step2]
 
-https://ssl.mousestats.com/project/clicks/5648789896264721916/?accessKey=cb7747b235719a63f59f1e0bef2dc152
+
+6. Volviendo a la vista general de Heatmaps podemos editar la configuracion:
+ 
+ ![mt_hm_options]
+ 
+ Se sugiere siempre subir una version propia de la pantalla. Esta opcion solo se habilita una vez que el proyecto ha sido creado.
+ 
+ ![mt_hm_retake]
+
+:lollipop:Y el proyecto ha sido creado. 
+
+ ![mt_hm_esperar]
+
+:hourglass_flowing_sand:Ahora solo queda esperar que la gente pase por la pagina y acumular datos.
+ 
+ ![meme_esperar]
+
+Una vez se tienen datos se puede compartir directamente el reporte a traves de un enlace sin necesidad de dar los accesos de la cuenta:
+ 
+ ![mt_hm_share]
+ 
+ [Pueden ver el mapa de la Guia UX a traves de este enlace.](https://ssl.mousestats.com/project/clicks/5648789896264721916/?accessKey=cb7747b235719a63f59f1e0bef2dc152)
+
+Se puede anular el acceso a la data a traves de los enlaces compartidos.
+ 
+ ![mt_hm_revoke]
+
+Con esto damos fin a la configuracion de heatmaps.
+
+[potato]
+
 
 
 
@@ -265,4 +301,14 @@ Ir a [Cuestionarios](https://github.com/acamposc/managementsociety/blob/master/h
 [atm_gtm_preview]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_attachmedia_gtm_preview.png
 [mt_hm_step1]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_mousestats_heatmaps_atm_guia_ux.png
 [mt_hm_step2]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_mousestats_heatmaps_atm_guia_ux_2.png
+[mt_hm_options]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_mousestats_heatmaps_atm_options.png
+[mt_hm_retake]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_mousestats_heatmaps_atm_guia_ux_retake_screenshot.png
+[mt_hm_esperar]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_mousestats_heatmaps_atm_esperar.png
+[mt_hm_share]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_mousestats_heatmaps_atm_share.png
+[mt_hm_revoke]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_mousestats_heatmaps_atm_share_revoke.png
+[potato]: https://i.pinimg.com/originals/a2/db/bb/a2dbbbd88508277c701bd1919f6e5b12.jpg
+
+
+
+
 
