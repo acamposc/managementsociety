@@ -48,13 +48,30 @@ Existe un plugin oficial de Mousestats para Wordpress, es una alternativa a impl
 :warning:Para habilitar esta caracteristica **se debe tener un identificador del usuario** como correo electronico o un id de base de datos disponible cuando navega la web.
 
 [Instruccion: colocar la siguiente linea de codigo luego de haber colocado la etiqueta de Mousestats](http://www.mousestats.com/docs/wiki/27/identify-a-user)
+
 ```javascript
+<!--  MouseStats:Begin  -->
+<script type="text/javascript">var MouseStats_Commands=MouseStats_Commands?MouseStats_Commands:[]; (function(){function b(){if(void 0==document.getElementById("__mstrkscpt")){var a=document.createElement("script");a.type="text/javascript";a.id="__mstrkscpt";a.src=("https:"==document.location.protocol?"https://ssl":"http://www2")+".mousestats.com/js/4/7/<YOUR MOUSTATS ID HERE>.js?"+Math.floor((new Date).getTime()/6E5);a.async=!0;a.defer=!0;(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}}window.attachEvent?window.attachEvent("onload",b):window.addEventListener("load", b,!1);"complete"===document.readyState&&b()})(); </script>
+<!--  MouseStats:End  -->
+
 MouseStats_Commands.push(["identify", "john.doe@example.com"]);
 ```
 Esta data se puede encontrar en la seccion TAGs (dentro de Mousestats).
 
 #### Tambien se puede incluir mayor cantidad de informacion de los usuarios en la seccion TAGs.
 ![mt_tags]
+
+Ejemplos de tags a usar:
+```javascript
+MouseStats_Commands.push(["tag", "paidMember"]);
+
+MouseStats_Commands.push(["tag", "returningVisitor"]);
+```
+
+Para tener la informacion organizada se sugiere usar la siguiente forma:
+```javascript
+MouseStats_Commands.push(["tag", "email", "user@mysite.com"]);
+```
 
 ¿En que ocasiones deberia extender la implementacion a este punto?
 
@@ -91,8 +108,23 @@ Cuando se desea:
 	* Think: Podemos analizar el comportamiento cuando: se navega entre paginas de detalle de producto o se tienen formularios para conseguir leads.
 	* Do: La idea es analizar el proceso de checkout y la compra. 
 	
-	Este Framework usualmente se usa para definir la estrategia de publicidad pero en este caso lo usamos para decidir que 
+	Este Framework usualmente se usa para definir la estrategia de publicidad pero en este caso lo usamos para decidir donde ejecutar los heatmaps, cuestionarios, otro ejemplo es segmentar los playbacks para no ver los de sesiones que no llegan al checkout o que rebotan.
 
+
+Para poder segmentar los reportes de Mousestats a este nivel se debe tener definido las variables de navegacion, como ejemplo quedan las siguientes:
+
+Ejemplo para travel:
+```javascript
+MouseStats_Commands.push(["tag", "tipo de viaje", "ida y vuelta"]);
+```
+Ejemplo para seguros:
+```javascript
+MouseStats_Commands.push(["tag", "categoria", "ida y vuelta"]);
+```
+Ejemplo para diarios:
+```javascript
+MouseStats_Commands.push(["tag", "seccion", "deportes"]);
+```
 
 
 
