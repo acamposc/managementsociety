@@ -62,7 +62,7 @@ Los resultados se ven de la siguiente manera:
 
 # Qualaroo
 
-Es una herramienta que cumple eficientemente con lanzar cuestionarios en cualquier sitio web. 
+Es una herramienta que cumple eficientemente con lanzar cuestionarios en cualquier sitio web. [Tiene una amplia documentacion con videos e imagenes para cada situacion e integracion posible.](https://help.qualaroo.com/hc/en-us)
 
 Como una de sus principales ventajas ofrece enviar las respuestas a Google Analytics como Eventos, evitando tener que revisar los reportes de Qualaroo.
 
@@ -81,7 +81,7 @@ Como una de sus principales ventajas ofrece enviar las respuestas a Google Analy
 
 - **No.**
 
-### Consideraciones
+#### Consideraciones
 
 - [En caso de instalar Qualaroo por GTM, es necesario tomar en cuenta un ajuste al momento de publicar las etiquetas para registrar los las respuestas directamente en Google Analytics.](https://help.qualaroo.com/hc/en-us/articles/201696503)
 
@@ -136,7 +136,68 @@ Como una de sus principales ventajas ofrece enviar las respuestas a Google Analy
         Action: The question
         Label: The answer
 
+### Empezando con Qualaroo
 
+El dashboard: 
+Desde aqui se accede a los sitios y las opciones de configuracion de la cuenta.
+ 
+ ![qr_dashb]
+
+Para crear un cuestionario se debe dar clic al siguiente boton:
+ 
+ ![qr_create]
+
+Inmediatamente se abre **el editor del cuestionario.**
+ 
+ ![qr_create_questions]
+
+Aqui es donde se puede ver el flujo del cuestionario; es decir, todos los pasos.
+
+Dentro del editor, vamos a llenar las preguntas y el mensaje final del cuestionario.
+
+![qr_create_question1]
+ 
+Las preguntas se veran de la siguiente manera:
+
+ ![qr_create_nudge]
+
+### Tipos de preguntas
+
+**Seleccion simple**
+ 
+ ![qr_seleccion_simple]
+
+**Seleccion multiple**
+ 
+ ![qr_seleccion_multiple]
+
+**Texto simple**
+ 
+ ![qr_texto_simple]
+ 
+**Texto (mas de una linea)**
+ 
+ ![qr_texto_multiple]
+
+**Fecha**
+
+ ![qr_date]
+ 
+**Net Promoter Score**
+ ![qr_nps]
+
+### [¿Que preguntas deberia hacer?¿En que casos usarlas?](https://help.qualaroo.com/hc/en-us/articles/201483927)
+
+### [¿Cual es un ratio de respusta aceptable?](https://help.qualaroo.com/hc/en-us/articles/201484047-What-is-typically-considered-a-good-response-rate-)
+
+- La respuesta esta entre 1 y 4 por ciento respecto a las vistas del nudge de Qualaroo en las paginas de destino.
+- Y en promedio 20% en las paginas de confirmacion de compra o confirmacion de registro.
+
+Si los ratios estan por debajo de los mencionados, se sugiere evaluar si:
+
+- La pregunta esta bien formulada.
+- Se muestra en el momento indicado.
+- Se deberia mostrar a un segmento de la audiencia.
 
 
 ##### [Ver 60 segundos del proximo video acerca de la regla de los 5 usuarios.](http://www.youtube.com/watch?v=/qOWbkdMy1Js?t=30m10s)
@@ -172,3 +233,14 @@ https://www.youtube.com/watch?v=KCJRBhWiy-8&t=387s
 [qr_ga_check]: https://help.qualaroo.com/hc/en-us/article_attachments/200536187/Recording_integration-1.png
 [qr_ga_audience]: https://lh5.ggpht.com/s7F5Sm4aX-icik8kLyaWxjePxEiG-dlk_Y-r39IJGhPJX2C2MlFkTr_J1tFTmYHcAhPjRU_oeQ=w895
 [qr_ga_segment]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/6_2_qr_analytics_segment_example.png
+[qr_dashb]: https://help.qualaroo.com/hc/en-us/article_attachments/200446626/Dashboard_-_Qualaroo-8.png
+[qr_create]: https://help.qualaroo.com/hc/en-us/article_attachments/200540177/Dashboard_-_Qualaroo-1.png
+[qr_create_questions]: https://help.qualaroo.com/hc/en-us/article_attachments/200393609/Screen_Shot_2014-08-26_at_3.28.41_PM.png
+[qr_create_question1]: https://help.qualaroo.com/hc/en-us/article_attachments/200494873/Create_-_Qualaroo-1.png
+[qr_create_nudge]: https://help.qualaroo.com/hc/en-us/article_attachments/200393629/Screen_Shot_2014-08-26_at_3.31.23_PM.png
+[qr_seleccion_simple]: https://help.qualaroo.com/hc/en-us/article_attachments/200437328/Screen_Shot_2014-02-09_at_12.38.50_PM.png
+[qr_seleccion_multiple]: https://help.qualaroo.com/hc/en-us/article_attachments/200494983/Screen_Shot_2014-02-09_at_12.28.55_PM.png
+[qr_texto_simple]: https://help.qualaroo.com/hc/en-us/article_attachments/200500717/Screen_Shot_2014-02-09_at_12.43.00_PM.png
+[qr_texto_multiple]: https://help.qualaroo.com/hc/en-us/article_attachments/200500707/Screen_Shot_2014-02-09_at_12.40.51_PM.png
+[qr_date]: https://help.qualaroo.com/hc/en-us/article_attachments/200406096/Screen_Shot_2014-02-09_at_12.45.08_PM.png
+[qr_nps]: https://help.qualaroo.com/hc/en-us/article_attachments/202087306/Screen_Shot_2015-11-30_at_4.44.42_PM.png
