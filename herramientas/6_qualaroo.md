@@ -171,6 +171,12 @@ Las preguntas se veran de la siguiente manera:
  
  ![qr_seleccion_multiple]
 
+
+##### Podemos saltar preguntas, dependiendo de la secuencia deseada en el cuestionario.
+ 
+ ![qr_skip]
+
+
 **Texto simple**
  
  ![qr_texto_simple]
@@ -184,9 +190,51 @@ Las preguntas se veran de la siguiente manera:
  ![qr_date]
  
 **Net Promoter Score**
+
  ![qr_nps]
 
+**Matriciales**
+
+ ![qr_matrix]
+ 
+ Para configurar este tipo de preguntas se llenan los campos de la siguiente manera:
+ 
+ ![qr_matrix_rows]
+ 
+ Se usan especialmente cuando se desea evaluar varios factores en una sola pregunta.
+ Las matrices usualmente se usan para preguntas que apunten a formar [Escalas de Likert](https://es.wikipedia.org/wiki/Escala_Likert) en el analisis.
+ 
+### Link Surveys
+
+ Este tipo de cuestionarios se activan con el fin de ser enviados a una base. Se suele hacer por correo.
+ 
+ Como primer paso, luego del boton "Create new survey!" elegimos Link Survey
+ 
+ ![qr_link]
+ 
+ Segundo paso, configurar la(s) preguntas:
+ 
+ ![qr_link_editor]
+ 
+ Tercer paso, definir donde aparecera el cuestionario:
+ 
+ ![qr_link_target]
+ 
+ Cuarto paso, definir el diseño del cuestionario:
+ 
+ ![qr_link_edit_nudge]
+ 
+ Penultimo paso, coger el enlace que vamos a enviar a la base:
+ 
+ ![qr_link_link]
+ 
+ Ultimo paso, revisar como se ve antes de enviarlo.
+ 
+ ![qr_link_demo]
+ 
+
 ### [¿Que preguntas deberia hacer?¿En que casos usarlas?](https://help.qualaroo.com/hc/en-us/articles/201483927)
+Se sugiere revisar este documentacion.
 
 ### [¿Cual es un ratio de respusta aceptable?](https://help.qualaroo.com/hc/en-us/articles/201484047-What-is-typically-considered-a-good-response-rate-)
 
@@ -253,3 +301,13 @@ https://www.youtube.com/watch?v=KCJRBhWiy-8&t=387s
 [qr_texto_multiple]: https://help.qualaroo.com/hc/en-us/article_attachments/200500707/Screen_Shot_2014-02-09_at_12.40.51_PM.png
 [qr_date]: https://help.qualaroo.com/hc/en-us/article_attachments/200406096/Screen_Shot_2014-02-09_at_12.45.08_PM.png
 [qr_nps]: https://help.qualaroo.com/hc/en-us/article_attachments/202087306/Screen_Shot_2015-11-30_at_4.44.42_PM.png
+[qr_skip]: https://help.qualaroo.com/hc/en-us/article_attachments/200495013/CreateBranching_logic_survey_-_Qualaroo.png
+[qr_matrix]: https://help.qualaroo.com/hc/article_attachments/115003764566/Screen_Shot_2017-03-14_at_12.40.54_PM.png
+[qr_matrix_rows]: https://help.qualaroo.com/hc/article_attachments/115003764686/Screen_Shot_2017-03-14_at_2.08.17_PM.png
+[qr_link]: https://help.qualaroo.com/hc/article_attachments/115017577623/mceclip0.png
+[qr_link_editor]: https://help.qualaroo.com/hc/article_attachments/115006989526/Screen_Shot_2017-05-02_at_12.35.23_PM.png
+[qr_link_target]: https://help.qualaroo.com/hc/article_attachments/115006990626/Screen_Shot_2017-05-02_at_1.52.28_PM.png
+[qr_link_edit_nudge]: https://help.qualaroo.com/hc/article_attachments/115006992186/Screen_Shot_2017-05-02_at_1.58.26_PM.png
+[qr_link_link]: https://help.qualaroo.com/hc/article_attachments/115006980923/Screen_Shot_2017-05-02_at_2.08.39_PM.png
+[qr_link_demo]: https://help.qualaroo.com/hc/article_attachments/115006992806/Screen_Shot_2017-05-02_at_2.02.21_PM.png
+
