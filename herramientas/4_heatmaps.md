@@ -199,9 +199,9 @@ MouseStats_Commands.push(["tag", "carrera", "marketing"]);
 
 	Reportes de Google Analytics a revisar:
 
-	a. Behavior / Site Content / `All pages` 
+	a. Behavior / Site Content / All pages
 
-	b. Behavior / Site Content / `Landing pages`
+	b. Behavior / Site Content / Landing pages
 
 2. Revisar el tipo de dispositivo.
 
@@ -209,9 +209,9 @@ MouseStats_Commands.push(["tag", "carrera", "marketing"]);
 
 	Reportes de Google Analytics a revisar:
 
-	a. Behavior / Site Content / All pages / `Dimension secundaria: Device Category`
+	a. Behavior / Site Content / All pages / Dimension secundaria: Device Category
  
-	b. Behavior / Site Content / Landing pages / `Dimension secundaria: Device Category`
+	b. Behavior / Site Content / Landing pages / Dimension secundaria: Device Category
 
 3. Revisar la pagina.
 
@@ -225,7 +225,7 @@ MouseStats_Commands.push(["tag", "carrera", "marketing"]);
 
 5. En `Mousestats / Heatmaps / Create new project`
 
-	5.1 **Page URL**: Colocar la URL completa de la pagina a analizar (incluyendo el encabezado http / https
+	5.1 **Page URL**: Colocar la URL completa de la pagina a analizar (incluyendo el encabezado http / https)
 	
 	5.2 **Limit**: Modificar el limite de vistas a usarse para este reporte.
 	
@@ -268,14 +268,103 @@ Se puede anular el acceso a la data a traves de los enlaces compartidos.
 
 Con esto damos fin a la configuracion de heatmaps.
 
-[potato]
+ ![potato]
+
+[Documentacion de Heatmaps de Mousestats.](http://www.mousestats.com/docs/wiki/11/heatmap-projects)
 
 
+---
+
+# Form Analytics
+
+ ![mt_fa_screen]
+
+### Tipos de reportes
+
+1. Conversion
+
+   3 metricas se ven en el grafico principal.
+
+   1. **Form Views**: Desde que aparece el formulario en una pagina.
+   2. **Form Starts**: Desde que se hace clic sobre uno de los campos de un formulario.
+   3. **Conversions**: Envios de formulario en el navegador.
+
+   Timings:
+  
+   ![mt_form_timings]
+  
+   Otros insights:
+  
+   ![mt_form_otros]
+
+2. Abandonos de formulario.
+   Por defecto, Mousestats cogera el nombre del input para mostrarlo en el grafico. 
+
+   ![mt_form_drop]
+  
+   
+
+### Configurar Form Analytics
+
+1. Elegir una pagina.
+
+ ![atm_analytics_pages]
+
+	Reportes de Google Analytics a revisar:
+
+	a. Behavior / Site Content / All pages / Solo mostrar las paginas con formularios
+
+	b. Behavior / Site Content / Landing pages / Funciona cuando son landing pages con formularios
 
 
+2. Revisar la pagina. `La pagina debe tener un formulario para que este reporte funcione correctamente`
+
+ ![atm_contacto]
+
+  #### http://attachmedia.com/contacto
+
+3. En `Mousestats / Form Analytics / Create new project`
+ 
+ ![mt_form_config]
+ 
+
+	3.1 **Page URL**: Colocar la URL completa de la pagina a analizar (incluyendo el encabezado http / https)
+	
+	3.2 **Limit**: Modificar el limite de vistas a usarse para este reporte.
+	
+	3.3 **Advanced / Form id**: Se recomienda colocar el id del formulario en caso exista o en caso se tenga mas de un formulario html en una pagina.
+	
+	3.4 Crear el reporte.
 
 
+Consideraciones:
+ - No todos los formularios tienen IDs, motivo por el cual es opcional colocarlo. 
+ 
+ ![mt_form_html_form]
+ 
+ [Mas informacion sobre los formularios HTML en este enlace.](https://www.w3schools.com/html/html_forms.asp)
 
+ - No todos los desarrollos funcionan igual, a pesar de seguir una misma estructura es probable que Mousestats no pueda capturar las "Conversiones". 
+  En estos casos se sugiere realizar el siguiente ajuste:
+  
+  Ejecutar el siguiente codigo cuando un formulario hace un envio satisfactorio de datos ("submit event")  
+  ```javascript
+  try { MouseStatsFormAnalytics.Submitted(); } catch(e) { };
+  ```
+  
+  En caso de tener mas de un formulario en una pagina, para diferenciarlos se sugiere colocar el ID de la siguiente manera:
+  
+  ```javascript
+  try { MouseStatsFormAnalytics.Submitted($("#formA")[0]); } catch(e) { };
+  ```
+  
+  [Documentacion oficial de Mousestats sobre el registro de Conversiones](http://www.mousestats.com/docs/wiki/22/mark-a-form-as-submitted-manually)
+  
+  
+  
+  
+  
+  
 ---
 
 Ir a [Cuestionarios](https://github.com/acamposc/managementsociety/blob/master/herramientas/5_cuestionarios.md)
@@ -307,8 +396,11 @@ Ir a [Cuestionarios](https://github.com/acamposc/managementsociety/blob/master/h
 [mt_hm_share]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_mousestats_heatmaps_atm_share.png
 [mt_hm_revoke]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_mousestats_heatmaps_atm_share_revoke.png
 [potato]: https://i.pinimg.com/originals/a2/db/bb/a2dbbbd88508277c701bd1919f6e5b12.jpg
-
-
-
-
+[mt_fa_screen]: https://www.mousestats.com/docs/Attachments/Blog/fa-conversion.png
+[atm_contacto]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/5_mousestats_form_analytics_attachmedia_contacto.png
+[mt_form_config]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/5_mousestats_form_config.png
+[mt_form_html_form]: https://www.htmlgoodies.com/img/2010/06/HTML-Forms-From-Basics-to-Style-Layouts-Figure2.gif
+[mt_form_drop]: http://www.mousestats.com/docs/Attachments/Images/formanalyticsTitles.png
+[mt_form_timings]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/5_mousestats_form_conv_timing.png
+[mt_form_otros]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/5_mousestats_form_conv_otros.png
 
