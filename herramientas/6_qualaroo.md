@@ -54,7 +54,9 @@ Los resultados se ven de la siguiente manera:
 
  ![mt_ms_results]
 
+¡Con esto damos fin a Mousestats!
 
+![potato]
 
 ---
 
@@ -63,7 +65,7 @@ Los resultados se ven de la siguiente manera:
 
 
 ---
-
+[potato]: https://i.pinimg.com/originals/a2/db/bb/a2dbbbd88508277c701bd1919f6e5b12.jpg
 [mt_ms_ex]: https://www.mousestats.com/docs/Attachments/Blog/micro2.png
 [mt_ms_results]: https://www.mousestats.com/static/theme/salesv2/serviceScreenshots/microsurveys.gif
 [mt_ms_prop_prim]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/mt_ms_create.png
