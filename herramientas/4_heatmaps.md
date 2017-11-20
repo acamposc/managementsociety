@@ -380,7 +380,7 @@ Consideraciones:
 
   En estos casos se sugiere realizar el siguiente ajuste:
   
-  Ejecutar el siguiente codigo cuando un formulario hace un envio satisfactorio de datos ("submit event")  
+  ##### Ejecutar el siguiente codigo cuando un formulario hace un envio satisfactorio de datos ("submit event")  
   
   ```javascript
   try { MouseStatsFormAnalytics.Submitted(); } catch(e) { };
