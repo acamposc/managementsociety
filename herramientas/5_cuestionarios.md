@@ -69,7 +69,7 @@ El cuadro lo pueden encontrar en https://www.netpromoter.com/compare/. Datos a N
 
 
 ---
-Ir a [Qualaroo]()
+Ir a [Qualaroo](https://github.com/acamposc/managementsociety/blob/master/herramientas/6_qualaroo.md)
 
 [tipos_pregunta]: https://static.e-encuesta.com/wp-content/uploads/Esquema-2-Letra-negra-Fondo-Blanco-2.jpg
 [nps_calc]: https://www.reviewtrackers.com/wp-content/uploads/net-promotor-score-in-brand-advocacy.jpg
