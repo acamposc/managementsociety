@@ -281,7 +281,7 @@ Con esto damos fin a la configuracion de heatmaps.
 
 ### Tipos de reportes
 
-1. Conversion
+1. **Conversion**
 
    3 metricas se ven en el grafico principal.
 
@@ -297,12 +297,42 @@ Con esto damos fin a la configuracion de heatmaps.
   
    ![mt_form_otros]
 
-2. Abandonos de formulario.
+2. **Abandonos de formulario.**
+
    Por defecto, Mousestats cogera el nombre del input para mostrarlo en el grafico. 
 
    ![mt_form_drop]
   
+3. **Entry fields.**
+
+   Señala el primer campo a ser llenado.
    
+   ![mt_form_entry]
+   
+4. **Character length.**
+   
+   Sirve para determinar el limite de caracteres a colocar en cada campo.
+   
+   ![mt_form_char]
+   
+5. **Most corrected.**
+   
+   Sirve para definir si lo solicitado es confuso para las personas.
+   
+   ![mt_form_most_corrected]
+   
+6. **Unnecesary fields.**
+
+   Aquellos campos que la gente evita llenar, el objetivo es definir cuales serian los primeros campos a eliminar del formulario.
+   
+   ![mt_form_unnecesary]
+
+7. **Most used fields.**
+
+   Totalmente el opuesto al anterior.
+   
+   ![mt_form_most]
+
 
 ### Configurar Form Analytics
 
@@ -345,6 +375,9 @@ Consideraciones:
  [Mas informacion sobre los formularios HTML en este enlace.](https://www.w3schools.com/html/html_forms.asp)
 
  - No todos los desarrollos funcionan igual, a pesar de seguir una misma estructura es probable que Mousestats no pueda capturar las "Conversiones". 
+ 
+  ![mt_form_conv_1]
+
   En estos casos se sugiere realizar el siguiente ajuste:
   
   Ejecutar el siguiente codigo cuando un formulario hace un envio satisfactorio de datos ("submit event")  
@@ -403,4 +436,14 @@ Ir a [Cuestionarios](https://github.com/acamposc/managementsociety/blob/master/h
 [mt_form_drop]: http://www.mousestats.com/docs/Attachments/Images/formanalyticsTitles.png
 [mt_form_timings]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/5_mousestats_form_conv_timing.png
 [mt_form_otros]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/5_mousestats_form_conv_otros.png
+[mt_form_conv_1]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/5_mousestats_form_conv.png
+[mt_form_entry]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/5_mousestats_entry_fields.png
+[mt_form_char]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/5_mousestats_form_char_length.png
+[mt_form_most_corrected]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/5_mousestats_most_corrected.png
+[mt_form_unnecesary]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/5_mousestats_unnecesary.png
+[mt_form_most]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/5_mousestats_most_used.png
+
+
+
+
 
