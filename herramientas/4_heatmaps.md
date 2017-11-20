@@ -398,11 +398,35 @@ Consideraciones:
  ![potato]
   
   [Documentacion oficial de Mousestats sobre el registro de Conversiones](http://www.mousestats.com/docs/wiki/22/mark-a-form-as-submitted-manually)
-  
+---
+
+# Playbacks
+
+ ![mt_pb]
+ 
+### Configurar un visitor recording
+
+1. Es tan sencillo como ir a `Mousestats / Playbacks / New project` 
+
+2. Colocar el `dominio` y configurar alguna `regla especifica`.
+
+ ![mt_pb_config]
+
+Para acceder a los playbacks / recordings se ve el siguiente panel:
+
+ ![mt_pb_report]
+
+**Consideraciones**
+1. Se aconseja filtrar la data que arroja este reporte antes de ponerse a mirar playbacks o pueden toparse con muchas sesiones con rebote.
+2. Se recomienda configurar TAGs de Mousestats
+
 ---
 
 Ir a [Cuestionarios](https://github.com/acamposc/managementsociety/blob/master/herramientas/5_cuestionarios.md)
 
+[mt_pb_config]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/mt_pb_config.png
+[mt_pb]: https://www.mousestats.com/static/theme/salesv2/serviceScreenshots/playbacks.gif
+[mt_pb_report]: https://www.mousestats.com/static/theme/salesv2/homePbScreenshot.png
 [mt_over]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/4_mousestats_overview.png
 [mt_ga_custom_dimension]: https://www.mousestats.com/docs/Attachments/DocumentResources/GADimensions.png
 [mt_tags]: http://www.mousestats.com/docs/Attachments/Images/TagData.png
