@@ -107,7 +107,7 @@ Como una de sus principales ventajas ofrece enviar las respuestas a Google Analy
  Y crear la audiencia de Remarketing a partir de este segmento:
  ![qr_ga_audience]
  
- [Tomar en cuenta que para que una lista sea util debe tener en  Display debe tener 100 usuarios activos en los ultimos 30 dias y para que sea util en Search debe tener al menos 1000.](https://support.google.com/adwords/answer/2472738?hl=en)
+ [Tomar en cuenta que para que una lista sea util debe tener en  Display debe tener 100 usuarios activos en los ultimos 30 dias y para que sea util en Search debe tener al menos 1,000.](https://support.google.com/adwords/answer/2472738?hl=en)
  
 - [La informacion enviada desde Qualaroo hacia Google Analytics sigue un patron:](https://help.qualaroo.com/hc/en-us/articles/202028108-Publishing-Qualaroo-Data-To-Google-Universal-Analytics)
         
