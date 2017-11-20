@@ -86,6 +86,7 @@ Como una de sus principales ventajas ofrece enviar las respuestas a Google Analy
 - [En caso de instalar Qualaroo por GTM, es necesario tomar en cuenta un ajuste al momento de publicar las etiquetas para registrar los las respuestas directamente en Google Analytics.](https://help.qualaroo.com/hc/en-us/articles/201696503)
 
 - [Para tener las respuestas de los cuestionarios de Qualaroo en Google Analytics se debe realizar la siguiente configuracion:](https://help.qualaroo.com/hc/en-us/articles/202028108-Publishing-Qualaroo-Data-To-Google-Universal-Analytics)
+    
     1. En el Dashboard, ir a `Site Settings`.
      
      ![qr_ga_site_set]
@@ -96,7 +97,7 @@ Como una de sus principales ventajas ofrece enviar las respuestas a Google Analy
      
      La imagen es referencial.
 
-- La data de eventos almacenada en Google Analytics no afecta el rebote; en ciertos casos si una sesion solo interactua con el cuestionario pero no con el sitio, el reporte de GA indicará que la sesion tuvo un rebote.
+- La data de eventos almacenada en Google Analytics no afecta el rebote; en ciertos casos si una sesion solo interactua con el cuestionario pero no con el sitio, el reporte de GA indicará que la sesion ha rebotado.
 
 - En caso de tener una masa critica significativa, se puede [construir Segmentos Avanzados en Google Analytics](https://support.google.com/analytics/answer/3124493?hl=es) que hayan contestado determinada respuesta y [construir audiencias de Remarketing en base a estas audiencias.](https://support.google.com/analytics/answer/6015314)
  
@@ -108,6 +109,35 @@ Como una de sus principales ventajas ofrece enviar las respuestas a Google Analy
  
  [Tomar en cuenta que para que una lista sea util debe tener en  Display debe tener 100 usuarios activos en los ultimos 30 dias y para que sea util en Search debe tener al menos 1000.](https://support.google.com/adwords/answer/2472738?hl=en)
  
+- [La informacion enviada desde Qualaroo hacia Google Analytics sigue un patron:](https://help.qualaroo.com/hc/en-us/articles/202028108-Publishing-Qualaroo-Data-To-Google-Universal-Analytics)
+        
+        When a survey is displayed to user
+        Category: "Qualaroo"
+        Action: "Saw survey"
+        Label: The survey's name
+        
+        When user closes a survey
+        Category: "Qualaroo"
+        Action: "Closed survey"
+        Label: The survey's name
+
+        When user minimizes a survey
+        Category: "Qualaroo"
+        Action: "Minimized survey"
+        Label: The survey's name
+
+        When user maximizes a survey
+        Category: "Qualaroo"
+        Action: "Maximized survey"
+        Label: The survey's name
+        
+        When user answers a question
+        Category: "Qualaroo - THE NAME OF THE SURVEY"
+        Action: The question
+        Label: The answer
+
+
+
 
 ##### [Ver 60 segundos del proximo video acerca de la regla de los 5 usuarios.](http://www.youtube.com/watch?v=/qOWbkdMy1Js?t=30m10s)
 
