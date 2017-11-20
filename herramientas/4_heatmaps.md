@@ -427,7 +427,7 @@ Para acceder a los playbacks / recordings se ve el siguiente panel:
 
 5. Una vez dentro del playback se puede agregar algunos como favoritos, con una nota para usarla como recordatorio.
 
-6. Se pueden compartir los playbacks de mismo modo que se comparten los Heatmaps.
+6. [Se pueden compartir los playbacks de mismo modo que se comparten los Heatmaps.](https://github.com/acamposc/managementsociety/blob/master/herramientas/4_heatmaps.md#una-vez-se-tienen-datos-se-puede-compartir-directamente-el-reporte-a-traves-de-un-enlace-sin-necesidad-de-dar-los-accesos-de-la-cuenta)
 
 ---
 
