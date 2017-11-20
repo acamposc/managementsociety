@@ -84,19 +84,30 @@ Como una de sus principales ventajas ofrece enviar las respuestas a Google Analy
 ### Consideraciones
 
 - [En caso de instalar Qualaroo por GTM, es necesario tomar en cuenta un ajuste al momento de publicar las etiquetas para registrar los las respuestas directamente en Google Analytics.](https://help.qualaroo.com/hc/en-us/articles/201696503)
+
 - [Para tener las respuestas de los cuestionarios de Qualaroo en Google Analytics se debe realizar la siguiente configuracion:](https://help.qualaroo.com/hc/en-us/articles/202028108-Publishing-Qualaroo-Data-To-Google-Universal-Analytics)
-    1. En el Dashboard, ir a **Site Settings**
+    1. En el Dashboard, ir a `Site Settings`.
      
      ![qr_ga_site_set]
      
-    2. Activar la etiqueta de **Universal Analytics**. 
+    2. Activar la etiqueta de `Universal Analytics`. 
     
      ![qr_ga_check]
      
      La imagen es referencial.
 
+- La data de eventos almacenada en Google Analytics no afecta el rebote; en ciertos casos si una sesion solo interactua con el cuestionario pero no con el sitio, el reporte de GA indicará que la sesion tuvo un rebote.
 
-
+- En caso de tener una masa critica significativa, se puede [construir Segmentos Avanzados en Google Analytics](https://support.google.com/analytics/answer/3124493?hl=es) que hayan contestado determinada respuesta y [construir audiencias de Remarketing en base a estas audiencias.](https://support.google.com/analytics/answer/6015314)
+ 
+ Se puede configurar un segmento de la siguiente manera:
+ ![qr_ga_segment]
+ 
+ Y crear la audiencia de Remarketing a partir de este segmento:
+ ![qr_ga_audience]
+ 
+ [Tomar en cuenta que para que una lista sea util debe tener en  Display debe tener 100 usuarios activos en los ultimos 30 dias y para que sea util en Search debe tener al menos 1000.](https://support.google.com/adwords/answer/2472738?hl=en)
+ 
 
 ##### [Ver 60 segundos del proximo video acerca de la regla de los 5 usuarios.](http://www.youtube.com/watch?v=/qOWbkdMy1Js?t=30m10s)
 
@@ -129,3 +140,5 @@ https://www.youtube.com/watch?v=KCJRBhWiy-8&t=387s
 [qr_ga]: https://help.qualaroo.com/hc/en-us/article_attachments/200525488/Events_action.png
 [qr_ga_site_set]: https://help.qualaroo.com/hc/en-us/article_attachments/200452338/Dashboard_-_Qualaroo.png
 [qr_ga_check]: https://help.qualaroo.com/hc/en-us/article_attachments/200536187/Recording_integration-1.png
+[qr_ga_audience]: https://lh5.ggpht.com/s7F5Sm4aX-icik8kLyaWxjePxEiG-dlk_Y-r39IJGhPJX2C2MlFkTr_J1tFTmYHcAhPjRU_oeQ=w895
+[qr_ga_segment]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/6_2_qr_analytics_segment_example.png
