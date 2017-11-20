@@ -429,6 +429,11 @@ Para acceder a los playbacks / recordings se ve el siguiente panel:
 
 6. [Se pueden compartir los playbacks de mismo modo que se comparten los Heatmaps.](https://github.com/acamposc/managementsociety/blob/master/herramientas/4_heatmaps.md#una-vez-se-tienen-datos-se-puede-compartir-directamente-el-reporte-a-traves-de-un-enlace-sin-necesidad-de-dar-los-accesos-de-la-cuenta)
 
+
+  Con esto damos fin a la configuracion de Playbacks.
+
+ ![potato]
+
 ---
 
 Ir a [Cuestionarios](https://github.com/acamposc/managementsociety/blob/master/herramientas/5_cuestionarios.md)
