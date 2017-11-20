@@ -62,6 +62,41 @@ Los resultados se ven de la siguiente manera:
 
 # Qualaroo
 
+Es una herramienta que cumple eficientemente con lanzar cuestionarios en cualquier sitio web. 
+
+Como una de sus principales ventajas ofrece enviar las respuestas a Google Analytics como Eventos, evitando tener que revisar los reportes de Qualaroo.
+
+ ![qr_ga]
+
+### Instalar Qualaroo
+[Pueden usar esta guia para colocarlo por GTM.](https://help.qualaroo.com/hc/en-us/articles/201405386)
+
+ ![qr_gtm]
+
+[O usar esta otra guia para instalarlo directamente en el codigo fuente.](https://help.qualaroo.com/hc/en-us/articles/201405336-Installing-the-JavaScript-on-your-Site)
+
+ ![qr_js]
+
+¿Existe alguna diferencia entre uno y otro metodo de instalacion?
+
+- **No.**
+
+### Consideraciones
+
+- [En caso de instalar Qualaroo por GTM, es necesario tomar en cuenta un ajuste al momento de publicar las etiquetas para registrar los las respuestas directamente en Google Analytics.](https://help.qualaroo.com/hc/en-us/articles/201696503)
+- [Para tener las respuestas de los cuestionarios de Qualaroo en Google Analytics se debe realizar la siguiente configuracion:](https://help.qualaroo.com/hc/en-us/articles/202028108-Publishing-Qualaroo-Data-To-Google-Universal-Analytics)
+    1. En el Dashboard, ir a **Site Settings**
+     
+     ![qr_ga_site_set]
+     
+    2. Activar la etiqueta de **Universal Analytics**. 
+    
+     ![qr_ga_check]
+     
+     La imagen es referencial.
+
+
+
 
 ##### [Ver 60 segundos del proximo video acerca de la regla de los 5 usuarios.](http://www.youtube.com/watch?v=/qOWbkdMy1Js?t=30m10s)
 
@@ -89,3 +124,8 @@ https://www.youtube.com/watch?v=KCJRBhWiy-8&t=387s
 [mt_ms_step5]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/mt_ms_message.png
 [mt_ms_types]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/mt_ms_question_types.png
 [mt_ms_actions]: https://github.com/acamposc/managementsociety/blob/master/herramientas/img/mt_ms_question_step.png
+[qr_gtm]: https://help.qualaroo.com/hc/article_attachments/115006184163/Screen_Shot_2017-04-21_at_2.56.12_PM.png
+[qr_js]: http://help.qualaroo.com/hc/en-us/article_attachments/200437208/Get_code_for_flawedartist.com_-_Qualaroo.png
+[qr_ga]: https://help.qualaroo.com/hc/en-us/article_attachments/200525488/Events_action.png
+[qr_ga_site_set]: https://help.qualaroo.com/hc/en-us/article_attachments/200452338/Dashboard_-_Qualaroo.png
+[qr_ga_check]: https://help.qualaroo.com/hc/en-us/article_attachments/200536187/Recording_integration-1.png
