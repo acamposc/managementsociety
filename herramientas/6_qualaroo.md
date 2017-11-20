@@ -63,6 +63,19 @@ Los resultados se ven de la siguiente manera:
 # Qualaroo
 
 
+##### [Ver 60 segundos del proximo video acerca de la regla de los 5 usuarios.](http://www.youtube.com/watch?v=/qOWbkdMy1Js?t=30m10s)
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=qOWbkdMy1Js?t=30m10s" target="_blank"><img src="http://img.youtube.com/vi/qOWbkdMy1Js/0.jpg" alt="IMAGE ALT TEXT HERE" width="300" height="200" border="10" /></a>
+
+**Resumen:** la regla dice que con 5 usuarios representativos de tu audiencia se pueden encontrar 80% de los puntos criticos a mejorar en la experiencia de una pagina / sitio / app.
+
+
+##### [Qualaroo orientado a Conversion Rate Optimization (2m21s)](https://www.youtube.com/watch?v=ALEcoZrptvQ)
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ALEcoZrptvQ" target="_blank"><img src="http://img.youtube.com/vi/ALEcoZrptvQ/0.jpg" alt="IMAGE ALT TEXT HERE" width="300" height="200" border="10" /></a>
+
+Question guide for Qualaroo
+https://www.youtube.com/watch?v=KCJRBhWiy-8&t=387s
 
 ---
 [potato]: https://i.pinimg.com/originals/a2/db/bb/a2dbbbd88508277c701bd1919f6e5b12.jpg
