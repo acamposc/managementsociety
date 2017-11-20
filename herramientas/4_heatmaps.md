@@ -418,7 +418,12 @@ Para acceder a los playbacks / recordings se ve el siguiente panel:
 
 **Consideraciones**
 1. Se aconseja filtrar la data que arroja este reporte antes de ponerse a mirar playbacks o pueden toparse con muchas sesiones con rebote.
-2. Se recomienda configurar TAGs de Mousestats
+
+2. [Se recomienda configurar TAGs de Mousestats](https://github.com/acamposc/managementsociety/blob/master/herramientas/4_heatmaps.md#agregar-otra-informacion-de-usuario) para poder filtrar los reportes y encontrar usuarios con algun perfil de negocio interesante a analizar.
+
+3. 
+
+
 
 ---
 
