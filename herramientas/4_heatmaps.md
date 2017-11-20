@@ -358,13 +358,13 @@ Con esto damos fin a la configuracion de heatmaps.
  ![mt_form_config]
  
 
-	3.1 **Page URL**: Colocar la URL completa de la pagina a analizar (incluyendo el encabezado http / https)
+  3.1 **Page URL**: Colocar la URL completa de la pagina a analizar (incluyendo el encabezado http / https)
 	
-	3.2 **Limit**: Modificar el limite de vistas a usarse para este reporte.
+  3.2 **Limit**: Modificar el limite de vistas a usarse para este reporte.
 	
-	3.3 **Advanced / Form id**: Se recomienda colocar el id del formulario en caso exista o en caso se tenga mas de un formulario html en una pagina.
+  3.3 **Advanced / Form id**: Se recomienda colocar el id del formulario en caso exista o en caso se tenga mas de un formulario html en una pagina.
 	
-	3.4 Crear el reporte.
+  3.4 **Crear el reporte.**
 
 
 Consideraciones:
@@ -381,22 +381,23 @@ Consideraciones:
   En estos casos se sugiere realizar el siguiente ajuste:
   
   Ejecutar el siguiente codigo cuando un formulario hace un envio satisfactorio de datos ("submit event")  
+  
   ```javascript
   try { MouseStatsFormAnalytics.Submitted(); } catch(e) { };
   ```
   
   En caso de tener mas de un formulario en una pagina, para diferenciarlos se sugiere colocar el ID de la siguiente manera:
   
+  
   ```javascript
   try { MouseStatsFormAnalytics.Submitted($("#formA")[0]); } catch(e) { };
   ```
   
+  Con esto damos fin a la configuracion de Form Analytics.
+
+ ![potato]
+  
   [Documentacion oficial de Mousestats sobre el registro de Conversiones](http://www.mousestats.com/docs/wiki/22/mark-a-form-as-submitted-manually)
-  
-  
-  
-  
-  
   
 ---
 
