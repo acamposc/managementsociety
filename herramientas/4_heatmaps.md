@@ -256,7 +256,7 @@ MouseStats_Commands.push(["tag", "carrera", "marketing"]);
  
  ![meme_esperar]
 
-Una vez se tienen datos se puede compartir directamente el reporte a traves de un enlace sin necesidad de dar los accesos de la cuenta:
+##### Una vez se tienen datos se puede compartir directamente el reporte a traves de un enlace sin necesidad de dar los accesos de la cuenta:
  
  ![mt_hm_share]
  
@@ -421,9 +421,13 @@ Para acceder a los playbacks / recordings se ve el siguiente panel:
 
 2. [Se recomienda configurar TAGs de Mousestats](https://github.com/acamposc/managementsociety/blob/master/herramientas/4_heatmaps.md#agregar-otra-informacion-de-usuario) para poder filtrar los reportes y encontrar usuarios con algun perfil de negocio interesante a analizar.
 
-3. 
+3. [Si el seguimiento de Conversiones de Mousestats esta bien configurado y funciona](https://github.com/acamposc/managementsociety/blob/master/herramientas/4_heatmaps.md#ejecutar-el-siguiente-codigo-cuando-un-formulario-hace-un-envio-satisfactorio-de-datos-submit-event) se puede filtrar la data de playbacks para solo ver las sesiones que convierten.
 
+4. Para ver las sesiones de dispositivos moviles se debe filtrar por sistema operativo (Android / iOS).
 
+5. Una vez dentro del playback se puede agregar algunos como favoritos, con una nota para usarla como recordatorio.
+
+6. Se pueden compartir los playbacks de mismo modo que se comparten los Heatmaps.
 
 ---
 
